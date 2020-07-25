@@ -1,0 +1,140 @@
+html{
+    height: 100%;
+}
+body{ 
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+/* Section 1 style */
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/images/image.jpeg");
+    height: 100%;
+    width:100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 0px;
+  }
+
+#logo{
+ float: left;
+ padding-left:60px;
+ padding-top:40px;
+
+
+}
+
+.navbar ul {
+    padding-right:10px;
+    padding-top:60px;
+    float: right;
+}
+.navbar li {
+   list-style-type: none; 
+   padding:0px 20px 0px 20px;
+   display: inline;
+}
+.navbar a{
+    color:rgb(98, 157, 190);
+    font-size: 18px;
+    text-decoration: none;   
+}
+.navbar a:hover{ 
+    color: rgb(110, 213, 231);
+}
+.navbar a:active{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+header h1{
+    color: rgb(248, 242, 242);
+    font-size: 50px;
+    text-align: left;
+    padding-left: 70px;
+    line-height: 40px;
+}
+header p{
+    color: rgb(221, 216, 217);
+    font-size: 25px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+header button{
+    text-align: center;
+    color: rgb(10, 10, 4);
+    font-weight: bold;
+    background-color: rgb(236, 232, 220);
+    border:none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 40px;
+    position: absolute;  
+    margin-left: 70px;
+}
+header button:hover{
+    background-color: rgb(172, 153, 117);
+    text-decoration: underline;
+}
+
+/* Section 2 style */
+
+.section2{
+    padding-top: 80px;
+    background-color: rgb(103, 156, 158);
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.section2 p{
+    padding-bottom: 30px;
+}
+.services-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 80px; 
+    padding-bottom: 80px;
+    justify-content: space-evenly;
+}
+.ser{
+    font-size: 20px;
+  text-align: center;
+}
+.section2 i{
+    font-size: 70px;
+}
+
+/* Section 3 style */
+ .section3{
+    border-top: 1px solid black;
+
+ }
+/* Section 4 style */
+.section4{
+    padding-top: 80px;
+    background-color: rgb(103, 156, 158);
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.section4 p{
+    padding-bottom: 30px;
+}
+
+.features-grid{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ padding-top: 80px; 
+ padding-bottom: 80px;
+ justify-content: space-evenly;
+}
+
+.feature{
+    text-align: center;
+    font-size: 25px;
+}
+
