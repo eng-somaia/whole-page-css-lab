@@ -6,12 +6,37 @@ body{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.capital{
+    text-transform: uppercase;
+}
+.text-white{
+    color: white;
+}
+.text-gray{
+    color: gray;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.button-style{
+    background-color: rgb(160, 201, 11);
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+button:hover{    
+    text-decoration: underline;
 }
 /* Section 1 style */
-
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/images/image.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/images/1.jpeg");
     height: 100%;
     width:100;
     background-position: center;
@@ -20,74 +45,48 @@ header{
     position: relative;
     padding-bottom: 0px;
   }
-
 #logo{
- float: left;
- padding-left:60px;
- padding-top:40px;
-
-
+    font-size: 30px;
+    float: left;
+    padding-left:10%;
+    padding-top:80px;
 }
-
-.navbar ul {
-    padding-right:10px;
+.navbar ul { 
+    margin-right: 10%;
+    padding-right:50px;
     padding-top:60px;
     float: right;
 }
 .navbar li {
    list-style-type: none; 
-   padding:0px 20px 0px 20px;
+   padding:0px 20px;
    display: inline;
 }
 .navbar a{
-    color:rgb(98, 157, 190);
     font-size: 18px;
     text-decoration: none;   
 }
 .navbar a:hover{ 
-    color: rgb(110, 213, 231);
+    color: rgb(94, 175, 163);
 }
 .navbar a:active{
-    color: whitesmoke;
+    color: rgb(230, 183, 122);
     text-decoration: underline;
+}
+#first-sec{
+    margin-top: 22%;
+    margin-left: 10%;
 }
 header h1{
-    color: rgb(248, 242, 242);
     font-size: 50px;
-    text-align: left;
-    padding-left: 70px;
-    line-height: 40px;
 }
 header p{
-    color: rgb(221, 216, 217);
     font-size: 25px;
-    text-align: left;
-    padding-left: 70px;
 }
-
-header button{
-    text-align: center;
-    color: rgb(10, 10, 4);
-    font-weight: bold;
-    background-color: rgb(236, 232, 220);
-    border:none;
-    padding: 15px 30px 15px 30px;
-    border-radius: 40px;
-    position: absolute;  
-    margin-left: 70px;
-}
-header button:hover{
-    background-color: rgb(172, 153, 117);
-    text-decoration: underline;
-}
-
 /* Section 2 style */
-
 .section2{
-    padding-top: 80px;
-    background-color: rgb(103, 156, 158);
-    border-top: 1px solid black;
-    text-align: center;
+    height: 100%;
+    width:100;
     font-size: 30px;
 }
 .section2 p{
@@ -95,46 +94,143 @@ header button:hover{
 }
 .services-grid{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding-top: 80px; 
-    padding-bottom: 80px;
+    grid-template-columns: auto auto;
+    padding-top: 7%; 
     justify-content: space-evenly;
 }
-.ser{
-    font-size: 20px;
-  text-align: center;
+.ser-col-1{
+   /*img and butoon shadoo*/
 }
-.section2 i{
-    font-size: 70px;
-}
-
+.ser-col-2{
+    margin-top: 20%;
+} 
 /* Section 3 style */
- .section3{
-    border-top: 1px solid black;
-
+.section3{
+    height: 100%;
+    width:100;
+    font-size: 20px;
  }
+ .sec3-1 h1{
+    font-size: 40px;
+}
+ .offers-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 4% 10%;
+    justify-content: space-between;
+}
+.offer{
+    border: 0.5px solid rgba(173, 170, 170, 0.178);
+    border-radius: 20px;
+    padding: 50px 30px;
+   margin: 20px;
+}
 /* Section 4 style */
 .section4{
-    padding-top: 80px;
-    background-color: rgb(103, 156, 158);
-    border-top: 1px solid black;
-    text-align: center;
+    height: 100%;
+    width:100;
+    font-size: 20px;
+}
+
+.project-grid{
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ padding-top: 80px; 
+ margin-right: 50px;
+ margin-left: 50px;
+ justify-content: space-between;
+}
+
+.project{
+    padding: 30px;
+    padding-top: 50%;
+    font-size: 20px;
+}
+#project1{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/images/3.jpeg");
+
+}
+#project2{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/images/4.jpeg");
+
+}
+#project3{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/images/5.jpeg");
+
+}
+#project4{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/images/6.jpeg");
+
+}
+.section5{
+    height: 100%;
+    width:100;
+    font-size: 20px;
+}
+#h-sec5{
     font-size: 30px;
 }
-.section4 p{
-    padding-bottom: 30px;
+.say-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 4% 10%;
+    justify-content: space-between;
 }
-
-.features-grid{
- display: grid;
- grid-template-columns: auto auto auto;
- padding-top: 80px; 
- padding-bottom: 80px;
- justify-content: space-evenly;
+.say{
+    border: 0.5px solid rgba(173, 170, 170, 0.178);
+    border-radius: 20px;
+    padding: 60px 60px;
+    margin: 20px;
 }
-
-.feature{
-    text-align: center;
-    font-size: 25px;
+.section6 {
+    margin:0px 30px;
+    background-color: rgba(187, 187, 226, 0.116);
 }
-
+.secti0n7{
+    height: 100%;
+    width:100;
+    font-size: 20px;
+}
+#h-sec7{
+    font-size: 30px;
+}
+.blog-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5% 7%;
+    justify-content: space-between;
+}
+.blog{
+    margin: 20px;
+}
+.blog img{
+   
+padding-bottom: 40px;
+}
+.button-blog-style{
+    background-color: rgb(160, 201, 11);
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.blog .button-2{
+    background-color: white;
+    border: 0.5px solid rgba(133, 133, 133, 0.226);
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: underline;
+}
+footer{
+    margin: 0% 20px;
+    background-color: black;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.foo{
+    margin: 20% 0% 20% 7%;
+}
